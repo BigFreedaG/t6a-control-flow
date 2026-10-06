@@ -7,7 +7,8 @@
 # Any other day → Normal operations
 
 # Expected: Day 3: Cycle count, Day 5: Scanner audit, Day 15: FULL AUDIT, Day 30: FULL AUDIT
-DAYS_IN_MONTH = 30
+DAYS_IN_MONTH = 31
+#DAYS_IN_MONTH = 31 DAYS IN THE MONTH 
 for day in range(1, DAYS_IN_MONTH + 1):
     is_cycle_count_day = day % 3 == 0
     is_scanner_audit_day = day % 5 == 0
