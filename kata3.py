@@ -8,6 +8,7 @@
 # Expected: INC-1001 and INC-1004 are logged; INC-1002 and INC-1003 are skipped.
 
 # Stretch: do the other Kata 3 option too.
+# Outer loop: one pass per aisle (range stops before 4, so aisles 1-3)
 for aisle in range(1, 4):
     for shelf in range(1, 5):
         print(f"A{aisle}-S{shelf}", end=" ")
