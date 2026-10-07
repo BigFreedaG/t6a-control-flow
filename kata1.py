@@ -4,3 +4,4 @@
 for check in range(10):
     check_time = (check * 60 + 1) * 15
     print(check_time // 60, ":", check_time % 60)
+# check in range 10
