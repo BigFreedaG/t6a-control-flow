@@ -11,4 +11,6 @@
 for aisle in range(1, 4):
     for shelf in range(1, 5):
         print(f"A{aisle}-S{shelf}", end=" ")
-    print()  # Move to the next line after each aisle
+     # Print after the inner loop finishes so each aisle is one line
+    print(row) 
+     # Move to the next line after each aisle
